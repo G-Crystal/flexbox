@@ -1,0 +1,95 @@
+html,
+body,
+div.main-div {
+    height: 100%;
+}
+
+div.main-div>div {
+    width: 100%;
+}
+
+div.title-div {
+    background-color: #D3D3D3;
+}
+
+div.drawing-div {
+    background-color: #D3D3D3;
+    background-image: url('../images/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100% - 140px);
+}
+
+div.drawing-div>div {
+    width: 100%;
+    text-align: center;
+}
+
+div.drawing-div-2 {
+    background-color: #D3D3D3;
+    background-image: url('../images/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100% - 175px);
+    position: relative;
+}
+
+div.drawing-div-2>div {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.pattern-div {
+    background-color: #FFFFFF;
+}
+
+div.pattern-div img {
+    width: 100px;
+    height: 100px;
+}
+
+span.title-span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.a-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.img-1 {
+    background-image: url('../images/1.png');
+}
+
+.img-2 {
+    background-image: url('../images/2.png');
+}
+
+.img-3 {
+    background-image: url('../images/3.png');
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+.gallery {
+    background: #EEE;
+}
+
+.gallery-cell {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
